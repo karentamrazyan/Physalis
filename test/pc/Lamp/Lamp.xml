@@ -1,0 +1,81 @@
+<ConversionLog>
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "Lamp.xml"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "Lamp"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "D:\uni-du\My Diploma (Fraunhofer)\Physalis\Lamp.NET"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "D:\uni-du\My Diploma (Fraunhofer)\Camp - OSGi\inHausLamp"
+        />
+    </Settings>
+    <File
+        OldPath = "D:\uni-du\My Diploma (Fraunhofer)\Camp - OSGi\inHausLamp\NotificationRegisterImpl.java"
+        NewPath = "D:\uni-du\My Diploma (Fraunhofer)\Physalis\Lamp.NET\NotificationRegisterImpl.cs"
+    />
+    <File
+        OldPath = "D:\uni-du\My Diploma (Fraunhofer)\Camp - OSGi\inHausLamp\LampActivator.java"
+        NewPath = "D:\uni-du\My Diploma (Fraunhofer)\Physalis\Lamp.NET\LampActivator.cs"
+    >
+        <Class Name = "de.inhaus.inHausLamp.LampActivator" >
+            <Section Name = "start(BundleContext)" >
+                <Issue
+                    Type = "ToDo"
+                    Number = "1043"
+                    Severity = "2"
+                >The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</Issue>
+                <Issue
+                    Type = "ToDo"
+                    Number = "1043"
+                    Severity = "2"
+                >The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</Issue>
+            </Section>
+            <Section Name = "stop(BundleContext)" >
+                <Issue
+                    Type = "ToDo"
+                    Number = "1043"
+                    Severity = "2"
+                >The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</Issue>
+                <Issue
+                    Type = "ToDo"
+                    Number = "1043"
+                    Severity = "2"
+                >The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</Issue>
+            </Section>
+        </Class>
+    </File>
+    <File
+        OldPath = "D:\uni-du\My Diploma (Fraunhofer)\Camp - OSGi\inHausLamp\LampEvents.java"
+        NewPath = "D:\uni-du\My Diploma (Fraunhofer)\Physalis\Lamp.NET\LampEvents.cs"
+    />
+    <File
+        OldPath = "D:\uni-du\My Diploma (Fraunhofer)\Camp - OSGi\inHausLamp\LampImpl.java"
+        NewPath = "D:\uni-du\My Diploma (Fraunhofer)\Physalis\Lamp.NET\LampImpl.cs"
+    />
+    <File
+        OldPath = "D:\uni-du\My Diploma (Fraunhofer)\Camp - OSGi\inHausLamp\LampObject.java"
+        NewPath = "D:\uni-du\My Diploma (Fraunhofer)\Physalis\Lamp.NET\LampObject.cs"
+    />
+    <File
+        OldPath = "D:\uni-du\My Diploma (Fraunhofer)\Camp - OSGi\inHausLamp\Lamp.java"
+        NewPath = "D:\uni-du\My Diploma (Fraunhofer)\Physalis\Lamp.NET\Lamp.cs"
+    />
+    <File
+        OldPath = "D:\uni-du\My Diploma (Fraunhofer)\Camp - OSGi\inHausLamp\Test.java"
+        NewPath = "D:\uni-du\My Diploma (Fraunhofer)\Physalis\Lamp.NET\Test.cs"
+    />
+    <Issue
+        Type = "Global Warning"
+        Number = "4007"
+        Severity = "2"
+    >The startup class  doesn't exist in the project</Issue>
+</ConversionLog>
+
